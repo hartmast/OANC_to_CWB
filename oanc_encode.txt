@@ -1,0 +1,3 @@
+cwb-encode -s -c utf8 -x -v -d /corpora/data/oanc -f "/Volumes/TOSHIBA EXT/Corpora/OANC-GrAF/oanc.vrt" -R /usr/local/share/cwb/registry/oanc -P lemma -P pos -P anchor1 -P anchor2 -S text:0+id+modality+genre+file -S s
+
+cwb-makeall -r /usr/local/share/cwb/registry/ oanc
